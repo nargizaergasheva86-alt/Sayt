@@ -1,3 +1,6 @@
+body{
+    background-color: bisque;
+}
 img{
     width: 90px;
     height: 40px;
@@ -44,4 +47,25 @@ button{
     color: white;
     cursor: pointer;
     border-radius: 5px;
+}
+span:hover{
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}
+address:hover{
+    display: block;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #99ccff;
+}
+h1:hover{
+    font-size: 24px;
+    color: #333;
+}
+footer{
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
 }
